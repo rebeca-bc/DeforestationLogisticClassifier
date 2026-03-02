@@ -3,7 +3,7 @@
 ## 📖 Purpose of Study
 Can socioeconomic and demographic data alone identify which countries are actively destroying their forests?
 
-This project transitions from the continuous regression approach developed in the previous phase into a **binary classification problem**, using Logistic Regression to predict whether a country is at *critical deforestation risk* or not. The central challenge is not just building a model — it is justifying the construction of a meaningful target variable from a continuous rate, handling a naturally imbalanced class distribution, and choosing an evaluation framework that reflects real ecological stakes. This repo demonstrates the full classification workflow: from defining the problem with scientific grounding, to cross-validating rigorously, to interpreting what the model actually learned about the world.
+This project transitions from the continuous regression approach developed in the previous phase into a **binary classification problem**, using Logistic Regression to predict whether a country is at *critical deforestation risk* or not. The central challenge is not just building a model; it is justifying the construction of a meaningful target variable from a continuous rate, handling a naturally imbalanced class distribution, and choosing an evaluation framework that reflects real ecological stakes. This repo demonstrates the full classification workflow: from defining the problem with scientific grounding, to cross-validating rigorously, to interpreting what the model actually learned about the world.
 
 ## 📊 The Data
 The dataset (`simplified_df.csv`) is a pre-processed combination of environmental and socioeconomic country-level records (n = 103 countries after filtering non-forested nations), built and cleaned during the linear regression phase of this project series. The target variable `Deforestation_Critical` is derived from the annual deforestation rate.
@@ -23,6 +23,7 @@ The dataset (`simplified_df.csv`) is a pre-processed combination of environmenta
 * `Urban Population`: Share of population in urban areas — urbanization patterns affect land-use pressure.
 * `CPI`, `CPI Change (%)`, `Tax Revenue (%)`, `Unemployment Rate`, and others: Macroeconomic context variables.
 * `Latitude / Longitude`: Geographic position, captures tropical belt effects not explained by economics alone.
+* (the full list is and can be found in the notebook)
 
 ## 🛠 Main Conceptual Applications
 The core purpose of this notebook is to rigorously apply classification and model evaluation concepts to a real-world ecological problem. The key technical applications shown are:
