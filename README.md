@@ -51,7 +51,7 @@ The full analysis, decisions, and narrative can be found in the notebook. The ma
 ## Project Files
 - [LogisticRegression.ipynb](./LogisticRegression.ipynb): The full classification analysis, cross-validation, threshold study, and coefficient interpretation.
 - [LogisicRegression.html](./LogisticRegression.html): The html readable version of the notebook.
-- [Simplified_df.csv](./Simplified_df.csv): The dataset cleaned and ready from the past deforestation project. 
+- [Simplified_df.csv](./simplified_df.csv): The dataset cleaned and ready from the past deforestation project. 
 
 ## References
 [1] Teo, H. C., Sarira, T. V., Tan, A. R. P., Cheng, Y., & Koh, L. P. (2024). Charting the future of high forest low deforestation jurisdictions. *Proceedings of the National Academy of Sciences*, 121(37), e2306496121. https://doi.org/10.1073/pnas.2306496121
