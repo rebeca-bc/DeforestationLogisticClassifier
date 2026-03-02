@@ -1,0 +1,2 @@
+# DeforestationLogisticClassifier
+Logistic Regression Classifier
